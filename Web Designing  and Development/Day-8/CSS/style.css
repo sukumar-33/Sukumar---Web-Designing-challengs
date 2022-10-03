@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{background-color: aqua;}
+#service{background-color: rgb(39, 61, 134);}
+#Price{background-color: rgb(104, 17, 85);}
+#Product{background-color: rgb(151, 167, 16);}
+#Contact-Form{background-color: rgb(134, 7, 35);}
+
+header{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9px;
+    height: 80px;
+    position: fixed;
+    background-color: blue;
+
+}
+#service,#Price,#Product,#Contact-Form{
+    padding-top: 80px;
+    
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px;
+    margin-left: 20px;
+    
+
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+#txtsearch{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 200px;
+    letter-spacing: 0.9px;
+}
